@@ -1,0 +1,537 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 90%;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+}
+
+section {
+    padding: 3rem 7%;
+}
+
+header {
+    padding: 2rem 7%;
+    background-color: rgb(242, 234, 218, .5);
+    min-height: 700px;
+    
+}
+
+header .navigation {
+    display: flex;
+    justify-content: space-between;
+    min-height: 70px;
+    
+}
+
+header .navigation .logo p {
+    font-size: 2rem;
+    font-weight: 600;
+    color: rgb(56, 4, 154);
+}
+
+header .navigation .navbar {
+    margin-top: 10px;
+}
+
+header .navigation .navbar ul{
+    display: flex;
+    list-style: none;
+}
+
+header .navigation .navbar ul li a {
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+    font-size: 1.2rem;
+
+}
+
+header .navigation .navbar .sign-in {
+    display: none;
+}
+
+header .navigation .sign-btn {
+    margin-top: 10px;
+}
+
+header .navigation .sign-btn a{
+    text-decoration: none;
+    padding: 10px 15px;
+    font-weight: 500;
+    font-size: 1.2rem;
+    border-radius: 5px;
+
+}
+
+header .navigation .sign-btn a:last-child {
+    background:rgb(56, 4, 154);
+    color: white;
+    
+}
+
+header .hero {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap-reverse;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+header .hero .left-side {
+    flex: 1 1 25rem;
+    
+}
+
+header .hero .left-side .stars {
+    display: flex;
+
+}
+
+header .hero .left-side .stars img {
+    margin-right: 5px;
+}
+
+header .hero .left-side .stars p {
+    color: rgb(68, 68, 68);
+    font-size: 1.2rem;
+    margin-left: 10px;
+}
+
+header .hero .left-side .content {
+    padding: 1rem 0;
+    width: 90%;
+    
+}
+
+header .hero .left-side .content h1 {
+    font-size: 3.5rem;
+}
+
+header .hero .left-side .content p {
+    color: rgb(68, 68, 68);
+    font-size: 1.2rem;
+    line-height: 1.5;
+
+}
+
+header .hero .left-side .btn-2 {
+    margin: 2rem 0;
+}
+
+header .hero .left-side .btn-2 a {
+    padding: 15px 25px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+
+}
+
+header .hero .left-side .btn-2 a:first-child{
+    background:rgb(56, 4, 154);
+    color: white;
+    text-decoration: none;
+
+}
+
+header .hero .left-side .info-text {
+    display: flex;
+    padding-top: 2rem;
+    flex-wrap: wrap;
+
+}
+
+header .hero .left-side .info-text span {
+    display: flex;
+    margin-right: 20px;
+    
+}
+
+header .hero .left-side .info-text p {
+    margin-left: 10px;
+    font-size: 1.2rem;
+    color: rgb(68, 68, 68);
+}
+
+header .hero .right-side {
+    flex: 1 1 25rem;
+}
+
+header .hero .right-side img {
+    width: 100%;
+}
+
+
+/*card-section*/
+
+.cards .heading {
+    margin: 2rem 0;
+}
+
+.cards .heading h3 {
+    color: rgb(56, 4, 154);
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+
+}
+
+.cards .heading h2 {
+    font-size: 2rem;
+    width: 40%;
+
+}
+
+.cards .cards-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+   
+}
+
+.cards .cards-content .card-info {
+
+    margin-top: 1rem;
+}
+
+.cards .cards-content .card-info  h4 {
+    margin-bottom: 1rem;
+}
+
+.cards .cards-content .card-info p{
+    width: 80%;
+
+}
+
+/* container-section */
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+    
+    
+}
+
+.container .card {
+    background-color: rgb(56, 4, 154);
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    border-radius: 5px;
+    gap: 2rem;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.container .left-side {
+    flex: 1 1 15rem;
+}
+
+.container .left-side .content h2 {
+    color: white;
+    font-size: 2rem;
+}
+
+.container .left-side .content p {
+    padding: 1rem 0;
+    color: rgb(199, 198, 198);
+    line-height: 1.7;
+    margin-bottom: 1rem;
+}
+
+.container .left-side .content a {
+    padding: 15px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 500;
+    background-color: white;
+}
+
+
+.container .right-side {
+    flex: 1 1 20rem;
+    
+}
+
+.container .right-side img {
+    width: 100%;
+    position: relative;
+    top: 35px;
+   
+    
+}
+
+/* card-review */
+
+.cards-review {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    
+    
+}
+
+.cards-review .card-user {
+    padding: 2rem;
+    border: 2px solid rgb(199, 199, 199);
+    border-radius: 5px;
+}
+
+.cards-review .card-user .info-user {
+    display: flex;
+
+}
+
+.cards-review .card-user .info-user span {
+    margin-left: 10px;
+    margin-top: 10px;
+    
+}
+
+.cards-review .card-user .info-user span h5 {
+    font-size: 1rem;
+}
+
+.cards-review .card-user .info-user span p {
+    color: gray;
+}
+
+.cards-review .card-user .content {
+    padding: 2rem 0;
+
+}
+
+.cards-review .card-user .content p {
+    color: rgb(104, 104, 104);
+    padding-bottom: 1rem;
+}
+
+.cards-review .card-user a {
+    padding: 15px 20px;
+    border:rgb(199, 199, 199) 1px solid;
+    color: rgb(56, 4, 154);
+    font-weight: 600;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+/* footer */
+
+.footer {
+    margin-top: 3rem;
+    background-color:rgb(225, 223, 223, .5);
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    padding: 4rem 6rem;
+}
+
+.footer .footer-info {
+    width: 20%;
+   
+}
+
+.footer .footer-info p {
+    color: rgb(128, 127, 127);
+}
+
+.footer h4 {
+    font-size: 1.2rem;
+}
+
+.footer .footer-nav ul {
+    list-style: none;
+}
+
+.footer .footer-nav ul li {
+    margin-top: 5px;
+}
+ 
+.footer .footer-nav ul li a {
+    text-decoration: none;
+    color: rgb(128, 127, 127);
+}
+
+#hamburger {
+    cursor: pointer;
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 991px){
+
+    html {
+        font-size: 80%;
+    }
+
+    body {
+        height: 100%;
+    }
+
+    header .navigation .navbar {
+        display: none;
+    }
+
+    header .navigation .sign-btn {
+        display: none;
+    }
+
+    header .hero .left-side .content p {
+        width: 90%;
+    }
+
+    header .hero .left-side .stars {
+        display: none;
+    }
+
+    header .hero .left-side .btn-2 {
+        display: flex;
+        flex-direction: column;
+        margin: .5rem;
+    }
+
+    header .hero .left-side .btn-2 a {
+        text-align: center;
+        
+    }
+
+    header .hero .left-side .info-text {
+        padding: 0;
+        gap: 1rem;
+        align-items: center;
+    }
+
+
+    .cards .heading h2 {
+        width: 90%;
+    }
+
+
+    .cards .cards-content {
+        flex-wrap: wrap;
+    }
+
+    .container .card {
+        flex-direction: column;
+    }
+
+    .container .left-side .content a {
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    
+
+
+
+
+    .cards-review {
+        flex-wrap: wrap;
+    }
+
+    .cards-review .card-user a {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer {
+        padding: 4rem 2rem;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .footer .footer-info {
+        width: 100%;
+    }
+
+
+    /*hamburger menu */
+
+    #hamburger {
+        cursor: pointer;
+        display: block;
+        position: absolute;
+        top: 10px;
+        right: 0;
+    }
+
+    header .navigation {
+        position: relative;
+    }
+
+    #navbar.show {
+        display: block;
+        width: 100%;
+        height: auto;
+        background-color: rgb(56, 4, 154);;
+        position: absolute;
+        top: 25px;
+        border-radius: 5px;
+        
+
+    }
+
+    header .navigation .navbar ul {
+        display: block;
+        text-align: center;
+        margin-top: 15px;
+        
+    }
+
+    header .navigation .navbar ul li {
+        padding: 1rem 0;
+    }
+
+    header .navigation .navbar ul li a {
+        font-size: 1.5rem;
+        color: white;
+        font-weight: 400;
+    }
+
+    header .navigation .navbar ul li a:hover {
+        text-decoration: underline;
+    }
+
+    header .navigation .navbar .sign-in {
+        display: block;
+    }
+}
+    
+    

@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    height: 100%;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    
+    
+
+}
+
+.container .left-side {
+    flex: 1 1 30rem;
+    padding: 2rem 7%;
+}
+
+.container .left-side h1 {
+    margin: 2rem 0;
+    font-size: 1.8rem;
+}
+
+.container .left-side form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 100%;
+}
+
+.container .left-side form .name input, 
+.container .left-side form .email input,
+.container .left-side form .password input {
+    padding: 15px 20px;
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 5px;
+    
+}
+
+.container .left-side form label {
+    font-weight: 600;
+    font-size: .8rem;
+}
+
+.container .left-side form .checkbox {
+    display: flex;
+    gap: 1rem;
+}
+
+.container .left-side form .checkbox p {
+    width: 80%;
+}
+
+.container .left-side form .checkbox span {
+    color:rebeccapurple;
+    font-weight: 600;
+}
+
+.container .left-side form .checkbox input {
+    margin-top: 5px;
+}
+
+.container .left-side form .btn {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+}
+
+.container .left-side form .btn a:first-child {
+    background-color: rebeccapurple;
+    padding: 15px 20px;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    
+}
+
+.container .left-side form .btn a:last-child {
+    background-color: white;
+    padding: 15px 20px;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    
+    
+}
+
+.container .left-side form .btn span {
+    color: rebeccapurple;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container .right-side {
+    flex: 1 1 30rem;
+    background-color: rebeccapurple;
+    padding: 2rem 7%;
+    
+}
+
+.container .right-side img {
+    width: 100%;
+}
+
+.container .right-side .content {
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.container .right-side .content p {
+    width: 80%;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 991px){
+
+    .container {
+        padding: 0rem 2rem;
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .container .right-side {
+        display: none;
+    }
+
+    .container .left-side form .name input, 
+.container .left-side form .email input,
+.container .left-side form .password input {
+    width: 100%;
+    
+}
+
+.container .left-side form .btn {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+}
+
+
+}
